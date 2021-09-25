@@ -1,5 +1,21 @@
 twig:
     default_path: '%kernel.project_dir%/templates'
+    globals:
+        app_name: "GabDesign"
+        app_logo: "assets/images/logo/logo.png"
+        perso_full_name: "Gabrielle Boulet"
+        perso_first_name: "Gabrielle"
+        perso_last_name: "Boulet"
+        perso_mobile_number: "+33 (0)6 21 27 89 76"
+        perso_home_number: "+33 (0)6 21 27 89 76"
+        perso_adress: "France, Nantes"
+        perso_email: "gabrielle.boulet@yahoo.fr"
+        perso_birthdate: "01/22/2002"
+        link_insta: "https://www.instagram.com/aostart/?hl=fr"
+        link_fb: "#"
+        link_twitter: "#"
+        link_linkedin: ""
+        link_site: "https://www.gabdesign.idevlab.fr"
 
 when@test:
     twig:
